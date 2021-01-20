@@ -1,0 +1,32 @@
+// Requirements
+// ============
+
+@import "compass";
+@import "susy";
+@import "breakpoint";
+
+$photo:
+	(
+		/*debug:(image:show),*/
+		column-width: 70px,
+		gutters: 1/4,
+		columns: 4,
+		
+	);
+
+
+$desk: (
+	column-width:60px,
+	 columns: 13,  
+    gutters: 1/3, 
+    gutter-position: center,  
+);
+
+
+
+$pho: 960px;
+
+
+
+
+

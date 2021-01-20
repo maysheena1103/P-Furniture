@@ -1,0 +1,94 @@
+@import "grids";
+
+
+
+
+.middle
+	{
+		.left_side
+			{
+				@include span(4);
+				height: 100%;
+				margin-bottom: 18%;
+				@include susy-breakpoint($pho,$desk)
+				  {
+				    @include span(6);
+				  }
+				.Qr
+					{
+						@include span(4);
+						height: 100px;
+						margin-top: 8%;
+						margin-bottom: 12%;
+						@include susy-breakpoint($pho,$desk)
+						  {
+						    @include span(6 of 6);
+						  }
+					}
+				.qrcode
+					{
+						@include span(25.5%);
+						height: 100%;
+						@include squish(12%, 0%);
+						@include susy-breakpoint($pho,$desk)
+						  {
+						    
+						  }
+					}
+				.titl
+					{
+						@include span(54%);
+						margin-top: 10%;
+						@include squish(6%, 0%);
+						font-size: 30px;
+						font-weight: bold;
+						letter-spacing: 1px;
+						line-height: 15px;
+						p{font-size: 20px;font-weight: normal;letter-spacing: -1px;}
+						@include susy-breakpoint($pho,$desk)
+						  {
+						    
+						  }
+					}
+				.button_a
+					{
+						@include span(2);
+						@include susy-breakpoint($pho,$desk)
+						  {
+						   	@include span(2.8 of 6);
+						  }
+					}
+				.button_b
+					{
+						@include span(last 2);
+						@include susy-breakpoint($pho,$desk)
+						  {
+						   	@include span(last 2.8 of 6);
+						  }
+					}
+			}
+
+		.right_side
+			{
+				@include span(4);
+				height: 100%;
+				
+				@include susy-breakpoint($pho,$desk)
+				  {
+				    @include span(6);
+				    @include pre(4%);
+				  }
+				table
+					{
+						font-size: 18px;
+						letter-spacing: 2.9px;
+						line-height: 30px;
+						margin-bottom: 18%;
+					}
+				.td_ti
+					{
+						font-size: 22px;
+						font-weight: bold;
+					}
+			}
+	}

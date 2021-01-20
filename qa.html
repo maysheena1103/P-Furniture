@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/stylesheets/global.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesheets/qa.css">
+
+
+		<!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"> -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- 
+
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+ -->
+		
+		<script type="text/javascript">
+			$(function(){
+				// 幫 div.qa_title 加上 hover 及 click 事件
+				// 同時把兄弟元素 div.qa_content 隱藏起來
+				$('#qaContent ul.accordionPart li div.qa_title').hover(function(){
+					$(this).addClass('qa_title_on');
+				}, function(){
+					$(this).removeClass('qa_title_on');
+				}).click(function(){
+					// 當點到標題時，若答案是隱藏時則顯示它；反之則隱藏
+					$(this).next('div.qa_content').slideToggle();
+				}).siblings('div.qa_content').hide();
+
+				$('#qaContent ul.accordionPart li div.qa_content:first').show();
+			});
+		</script>
+
+	</head>
+
+	<body>
+	<div class="container">
+		<div class="header">
+			<a class="logo" href="index.html">
+				<img src="images/Dhouse_02.png">
+			</a>
+			<div class="dowm">
+				<a class="icon" href="">
+					<img src="images/Dhouse_05.png">
+				</a>
+				<a class="icon" href="">
+					<img src="images/Dhouse_07.png">
+				</a>
+				<a class="icon" href="">
+					<img src="images/Dhouse_09.png">
+				</a>
+				<a class="icon" href="">
+					<img src="images/Dhouse_11.png">
+				</a>
+			</div>
+			
+		</div>
+		<!-- header end -->
+		<div class="menu">
+			<div class="menu_box">
+				<button class="me_bu"></button>
+				<a href="" class="page_name">常見問題</a>
+			</div>
+			<div class="list">
+				<a href="">所有商品</a>
+				<a href="news.html">最新消息</a>
+				<a href="">客廳</a>
+				<a href="">臥室</a>
+				<a href="">廚房</a>
+				<a href="">浴室</a>
+				<a href="">書房＆辦公傢俱</a>
+				<a href="">兒童天地</a>
+			</div>
+		</div>
+		<!-- menu end -->
+
+
+
+		<div class="middle">
+			<div class="left_side">
+				<div class="SelectStyle">
+				   <select> 
+				      <option>1</option>
+				      <option>2</option>
+				      <option>3</option>
+				   </select>
+				</div>
+
+				<div class="qa_group">
+					<table>
+						<tr>
+							<td>IKEA 及服務</td>
+						</tr>
+						<tr>
+							<td>宜家卡</td>
+						</tr>
+						<tr>
+							<td>IKEA 型錄</td>
+						</tr>
+						<tr>
+							<td>IKEA 網站</td>
+						</tr>
+					</table>
+				</div>
+
+			</div>
+			<div class="right_side">
+
+				<div class="qa_group_1">IKEA 及服務</div>
+					<div id="qaContent">
+						
+						<ul class="accordionPart">
+							<li>
+								<div class="qa_title qa_a">
+									1.  IKEA目前在台灣哪裡有分店? 營業時間是幾點呢? 
+								</div>
+								<div class="qa_content qa_cta">
+									<div class="qa_co">
+										我們相信好的家具應該有個讓人人都可以負擔得起的好價格，所以我們透過平整包裝，最有效率及最不破壞環境的製造方式來降低成本，同時讓大家可以選擇透過自己組裝和運送，來省下更多的錢。
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="qa_title qa_b">
+									2.  IKEA 是哪裡來的公司? 
+								</div>
+								<div class="qa_content qa_ctb">
+									<div class="qa_co">
+										我們相信好的家具應該有個讓人人都可以負擔得起的好價格，所以我們透過平整包裝，最有效率及最不破壞環境的製造方式來降低成本，同時讓大家可以選擇透過自己組裝和運送，來省下更多的錢。
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="qa_title qa_a">
+									3.  我在 IKEA可以買到哪些商品? 
+								</div>
+								<div class="qa_content qa_cta">
+									<div class="qa_co">
+										我們相信好的家具應該有個讓人人都可以負擔得起的好價格，所以我們透過平整包裝，最有效率及最不破壞環境的製造方式來降低成本，同時讓大家可以選擇透過自己組裝和運送，來省下更多的錢。
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="qa_title qa_b">
+									4.  IKEA 的商品是哪裡製造的? 
+								</div>
+								<div class="qa_content qa_ctb">
+									<div class="qa_co">
+										我們相信好的家具應該有個讓人人都可以負擔得起的好價格，所以我們透過平整包裝，最有效率及最不破壞環境的製造方式來降低成本，同時讓大家可以選擇透過自己組裝和運送，來省下更多的錢。
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="qa_title qa_a">
+									5.  IKEA 和其它家具家飾店有什麼不同? 
+								</div>
+								<div class="qa_content qa_cta">
+									<div class="qa_co">
+										我們相信好的家具應該有個讓人人都可以負擔得起的好價格，所以我們透過平整包裝，最有效率及最不破壞環境的製造方式來降低成本，同時讓大家可以選擇透過自己組裝和運送，來省下更多的錢。
+										<br><br>
+										不同於一般的家具家飾店，我們所有商品都歡迎你親自來試試，價格不論在店內或本網站都是公開透明，標示清楚的商品材質、產地，讓你放心選購。同時我們店內亦提供餐飲服務，非常適合帶全家人一起來逛逛! 
+										<br><br>
+										歡迎點選這裡了解更多有關 IKEA 店內服務的介紹。
+										歡迎點選這裡了解更多有關 IKEA 購物流程。
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="qa_title qa_b">
+									6.  如何知道我想購買的商品在 IKEA店內有沒有貨?
+								</div>
+								<div class="qa_content qa_ctb">
+									<div class="qa_co">
+										網站與APP上提供數千種不同設計和價格的 IKEA 家具家飾商品供你瀏覽。在點入商品的詳細介紹頁面後，你可以使用查詢貨況功能確認想購買商品之貨況。不過因為貨況可能隨時變動，建議你來店之前，來電做最後確認。歡迎點選這裡查詢各店的聯絡辦法和營業時間。
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+			</div>
+		</div>
+		<!-- middle end -->
+
+
+
+		<div class="footer">
+			<a href="">免費訂閱電子報</a>  | 
+			<a href="">下載 IKEA App</a>  | 
+			<a href="">常見問題</a>  |  
+			<a href="">聯繫我們</a><br>
+			<a href="">關於IKEA</a>  |  
+			<a href="">瑞典美食</a>  | 
+			<a href="">IKEA分店資訊</a>  | 
+			<a href="">人才招募</a><br><br>
+			<p>© Inter IKEA Systems B.V.  | 隱私權保護及網站使用政策</p>
+		</div>
+		<!-- footer end -->
+	</div>
+	</body>
+</html>

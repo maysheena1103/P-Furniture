@@ -1,0 +1,67 @@
+/* line 5, ../sass/main.scss */
+.image {
+  background-image: url(../../images/inde_21.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  height: 318px;
+}
+@media (min-width: 960px) {
+  /* line 5, ../sass/main.scss */
+  .image {
+    background-image: url(../../images/inde_24.png);
+    height: 316px;
+    width: 100%;
+    float: left;
+  }
+}
+
+/* line 21, ../sass/main.scss */
+.row {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 20px;
+  /*border: 3px solid #fff;*/
+  /*.ih-item.square
+  	{
+  		position: relative;
+  		width: 180px;
+  		height: 184px;
+  		
+  		box-shadow: 1px 1px 3pxrgba(0, 0, 0, 0.3);
+  	}*/
+}
+@media (min-width: 960px) {
+  /* line 21, ../sass/main.scss */
+  .row {
+    width: 100%;
+    float: left;
+  }
+}
+/* line 38, ../sass/main.scss */
+.row .col-sm-6 {
+  width: 50%;
+  float: left;
+  margin-right: 5.2631578947%;
+  height: 165px;
+}
+@media (min-width: 960px) {
+  /* line 38, ../sass/main.scss */
+  .row .col-sm-6 {
+    width: 25%;
+    float: left;
+    float: left;
+    height: 184px;
+  }
+}
+/* line 49, ../sass/main.scss */
+.row .col-sm-6 .ih-item.square.effect6 .img {
+  width: 100%;
+  height: 100%;
+}

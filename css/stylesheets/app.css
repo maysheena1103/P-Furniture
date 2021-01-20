@@ -1,0 +1,117 @@
+/* line 8, ../sass/app.scss */
+.middle .left_side {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  height: 100%;
+  margin-bottom: 18%;
+}
+@media (min-width: 960px) {
+  /* line 8, ../sass/app.scss */
+  .middle .left_side {
+    width: 45.0980392157%;
+    float: left;
+  }
+}
+/* line 17, ../sass/app.scss */
+.middle .left_side .Qr {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  height: 100px;
+  margin-top: 8%;
+  margin-bottom: 12%;
+}
+@media (min-width: 960px) {
+  /* line 17, ../sass/app.scss */
+  .middle .left_side .Qr {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* line 28, ../sass/app.scss */
+.middle .left_side .qrcode {
+  width: 25.5%;
+  float: left;
+  margin-right: 5.2631578947%;
+  height: 100%;
+  margin-left: 12%;
+  margin-right: 0%;
+}
+/* line 38, ../sass/app.scss */
+.middle .left_side .titl {
+  width: 54%;
+  float: left;
+  margin-right: 5.2631578947%;
+  margin-top: 10%;
+  margin-left: 6%;
+  margin-right: 0%;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+/* line 47, ../sass/app.scss */
+.middle .left_side .titl p {
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+/* line 53, ../sass/app.scss */
+.middle .left_side .button_a {
+  width: 47.3684210526%;
+  float: left;
+  margin-right: 5.2631578947%;
+}
+@media (min-width: 960px) {
+  /* line 53, ../sass/app.scss */
+  .middle .left_side .button_a {
+    width: 44.347826087%;
+    float: left;
+  }
+}
+/* line 61, ../sass/app.scss */
+.middle .left_side .button_b {
+  width: 47.3684210526%;
+  float: right;
+  margin-right: 0;
+}
+@media (min-width: 960px) {
+  /* line 61, ../sass/app.scss */
+  .middle .left_side .button_b {
+    width: 44.347826087%;
+    float: right;
+  }
+}
+/* line 71, ../sass/app.scss */
+.middle .right_side {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  height: 100%;
+}
+@media (min-width: 960px) {
+  /* line 71, ../sass/app.scss */
+  .middle .right_side {
+    width: 45.0980392157%;
+    float: left;
+    margin-left: 4%;
+  }
+}
+/* line 81, ../sass/app.scss */
+.middle .right_side table {
+  font-size: 18px;
+  letter-spacing: 2.9px;
+  line-height: 30px;
+  margin-bottom: 18%;
+}
+/* line 88, ../sass/app.scss */
+.middle .right_side .td_ti {
+  font-size: 22px;
+  font-weight: bold;
+}

@@ -1,0 +1,142 @@
+@import "grids";
+
+
+
+.middle
+	{
+		@include span(4);
+		@include susy-breakpoint($pho,$desk)
+ 		  {
+ 		  	@include span(77%);
+ 		  	@include pre(3%);
+ 		  }
+ 		.all_pic
+ 			{
+ 				@include span(4);
+ 				margin-top: 20px;
+ 				/*height: 310px;*/ 
+ 				@include susy-breakpoint($pho,$desk)
+ 					{
+ 				 		@include span(53%);
+ 					}
+ 			}
+	}
+#big
+	{
+		@include span(4);
+		overflow: hidden;
+		height: 226px;
+		@include susy-breakpoint($pho,$desk)
+ 		  {
+ 		  	@include span(100%);
+ 		  }
+ 		.pic_im
+ 			{
+ 				
+ 				@include span(4);
+ 				height: 226px;
+ 				text-align: center;
+ 				@include susy-breakpoint($pho,$desk)
+ 		 		  {
+ 		 		  	@include span(100%);
+ 		 		  }
+ 			}
+ 		img
+ 			{
+ 				display: block;
+ 				margin: auto;
+ 			}
+	}
+#small
+	{
+		@include span(4);
+		height: 61px;
+
+		background-color: rgba(#4c4c4c, 0.8);
+		overflow: hidden;
+		.smal_pic
+			{
+				@include span(4);
+				@include susy-breakpoint($pho,$desk)
+		 		  {
+		 		  	@include span(100%);
+		 		  }
+		 		&:after {
+				content: "";
+				display: block;
+				clear: both;
+						}
+			}
+		img
+			{
+				
+				padding: 2%;
+				width: 61px;
+				height: 61px;
+				@include susy-breakpoint($pho,$desk)
+		 		  {
+		 		  	width: 61.7px;
+		 		  }
+		 		&:hover,
+		 				 {
+		 						background: rgba(  #fff, 0.4 );
+		 					}
+			}
+	}
+.tab_list
+	{
+		@include span(4);
+		@include pad(4%); 
+		@include susy-breakpoint($pho,$desk)
+ 		  {
+ 		  	@include span(45% last);
+ 		  	@include pad(0%); 
+ 		  }
+ 		table
+ 			{
+ 				@include span(4);
+ 				color: #000;
+ 				font-size: 14px;
+
+				@include susy-breakpoint($pho,$desk)
+		 		  {
+		 		  	@include span(100%);
+		 		  }
+ 			}
+ 		th
+ 			{
+ 				font-size: 20px;
+ 				font-weight: bolder;
+ 				text-align: left;
+ 				word-spacing: 12px;
+ 				color: #4C4C4C;
+ 			}
+ 		.tda
+ 			{
+ 				text-align: left;
+ 				line-height: 24px;
+ 				letter-spacing: 1px;
+ 			}
+ 		.tdb
+ 			{
+ 				text-align: right;
+ 			}
+ 		tr
+ 			{
+ 				border-bottom: 1px solid rgba(#4c4c4c , 0.5)
+ 			}
+ 		.red
+ 			{
+ 				color: rgba(210, 0, 0, 0.96);
+ 				font-size: 12px;
+ 			}
+ 		.te_i
+ 			{
+ 				 text-indent: 15px;	 
+ 			}
+ 		.te_j
+ 			{
+ 				text-align:justify
+ 			}
+
+	}

@@ -1,0 +1,186 @@
+/* line 5, ../sass/news_in.scss */
+.middle {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (min-width: 960px) {
+  /* line 5, ../sass/news_in.scss */
+  .middle {
+    width: 77%;
+    float: left;
+    margin-left: 3%;
+  }
+}
+/* line 13, ../sass/news_in.scss */
+.middle .all_pic {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 20px;
+  /*height: 310px;*/
+}
+@media (min-width: 960px) {
+  /* line 13, ../sass/news_in.scss */
+  .middle .all_pic {
+    width: 53%;
+    float: left;
+  }
+}
+
+/* line 24, ../sass/news_in.scss */
+#big {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+  height: 226px;
+}
+@media (min-width: 960px) {
+  /* line 24, ../sass/news_in.scss */
+  #big {
+    width: 100%;
+    float: left;
+  }
+}
+/* line 33, ../sass/news_in.scss */
+#big .pic_im {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  height: 226px;
+  text-align: center;
+}
+@media (min-width: 960px) {
+  /* line 33, ../sass/news_in.scss */
+  #big .pic_im {
+    width: 100%;
+    float: left;
+  }
+}
+/* line 44, ../sass/news_in.scss */
+#big img {
+  display: block;
+  margin: auto;
+}
+
+/* line 50, ../sass/news_in.scss */
+#small {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  height: 61px;
+  background-color: rgba(76, 76, 76, 0.8);
+  overflow: hidden;
+}
+/* line 57, ../sass/news_in.scss */
+#small .smal_pic {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (min-width: 960px) {
+  /* line 57, ../sass/news_in.scss */
+  #small .smal_pic {
+    width: 100%;
+    float: left;
+  }
+}
+/* line 64, ../sass/news_in.scss */
+#small .smal_pic:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* line 70, ../sass/news_in.scss */
+#small img {
+  padding: 2%;
+  width: 61px;
+  height: 61px;
+}
+@media (min-width: 960px) {
+  /* line 70, ../sass/news_in.scss */
+  #small img {
+    width: 61.7px;
+  }
+}
+/* line 80, ../sass/news_in.scss */
+#small img:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* line 86, ../sass/news_in.scss */
+.tab_list {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+@media (min-width: 960px) {
+  /* line 86, ../sass/news_in.scss */
+  .tab_list {
+    width: 45%;
+    float: right;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+/* line 95, ../sass/news_in.scss */
+.tab_list table {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  color: #000;
+  font-size: 14px;
+}
+@media (min-width: 960px) {
+  /* line 95, ../sass/news_in.scss */
+  .tab_list table {
+    width: 100%;
+    float: left;
+  }
+}
+/* line 106, ../sass/news_in.scss */
+.tab_list th {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: left;
+  word-spacing: 12px;
+  color: #4C4C4C;
+}
+/* line 114, ../sass/news_in.scss */
+.tab_list .tda {
+  text-align: left;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+/* line 120, ../sass/news_in.scss */
+.tab_list .tdb {
+  text-align: right;
+}
+/* line 124, ../sass/news_in.scss */
+.tab_list tr {
+  border-bottom: 1px solid rgba(76, 76, 76, 0.5);
+}
+/* line 128, ../sass/news_in.scss */
+.tab_list .red {
+  color: rgba(210, 0, 0, 0.96);
+  font-size: 12px;
+}
+/* line 133, ../sass/news_in.scss */
+.tab_list .te_i {
+  text-indent: 15px;
+}
+/* line 137, ../sass/news_in.scss */
+.tab_list .te_j {
+  text-align: justify;
+}

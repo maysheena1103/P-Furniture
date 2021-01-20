@@ -1,0 +1,111 @@
+@import "grids";
+
+
+
+
+.middle
+	{
+		select
+			{
+				@include span(3.7);
+				@include squish(3.5%); 
+				margin-top: 18px;
+				margin-bottom: 18px;
+				height: 22px;
+				line-height: 22px;
+				color: #000;
+				border: 1px solid #bfbfbf;
+				text-align: center;
+				@include susy-breakpoint($pho,$desk)
+ 		  		{
+ 		  			@include span(5 last);
+ 		  			@include post(0%);
+ 		  			margin-top: 3px;
+ 		  			margin-bottom: 30px;
+
+ 		  		} 
+			}
+		.ma_box
+			{
+				@include span(4);
+				@include susy-breakpoint($pho,$desk)
+ 		  		{
+ 		  			@include span(13);
+
+ 		  		} 
+			}
+		.made
+			{
+				@include span(4);
+				height: 122px;
+				padding-top: 10px;
+				@include pad(11px); 
+				
+				@include susy-breakpoint($pho,$desk)
+ 		  		{
+ 		  			@include span(50%);
+
+ 		  		} 
+			}
+		.gra
+			{
+				background: #4c4c4c;
+				color: #fff;
+			}
+		.grb
+			{
+				background: #fff;
+				color: #000;
+			}
+		.grc
+			{
+				background: #4c4c4c;
+				color: #fff;
+				@include susy-breakpoint($pho,$desk)
+ 		  		{
+ 		  			background: #fff;
+ 		  			color: #000;
+
+ 		  		}
+			}
+		.grd
+			{
+				background: #fff;
+				color: #000;
+				@include susy-breakpoint($pho,$desk)
+ 		  		{
+ 		  			background: #4c4c4c;
+						color: #fff;
+
+ 		  		}
+			}
+		.mad_img
+			{
+				@include span(1.5);
+				width: 104px;
+				height: 104px;
+				@include post(27px);
+				@include susy-breakpoint($pho,$desk)
+ 		  		{
+ 		  			@include span(30%);
+
+ 		  		} 
+			}
+		.mad_text
+			{
+
+				@include span(56%);
+				height: 100%;
+				line-height: 16px; 
+				@include susy-breakpoint($pho,$desk)
+ 		  		{
+ 		  			@include span(62%);
+
+ 		  		} 
+			}
+		.font_s
+			{
+				font-size: 12px;
+			}
+	}
+

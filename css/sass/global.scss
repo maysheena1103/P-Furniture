@@ -1,0 +1,267 @@
+@import "grids";
+
+/*變數*/
+
+
+/*變數*/
+*
+	{
+		@include box-sizing(border-box);
+
+		/*@include background-size(auto 100%);*/
+		@include background-size(100% auto);
+		outline: none;
+		
+	}
+
+.spacer 
+	{
+		clear: both;
+	}
+.float
+	{
+		float: left;
+	}
+.float_r
+	{
+		float: right;
+	}
+.width
+	{
+		width: 100%;
+	}
+.hidden
+	{
+		display: none;
+	}
+.hidden_a
+	{
+		visibility: hidden;
+	}
+
+
+a 
+	{ 
+		text-decoration: none;
+		cursor: pointer; 
+		display: inline-block;
+	}
+
+
+html, body 
+{
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	/*background-color: #fff;*/
+}
+button
+	{
+		padding: 0px;
+		border: none;
+		margin: 0px;
+		cursor: pointer;
+		background: none
+	}
+
+@include with-layout($photo)
+{
+	.container
+	{
+		@include container; 
+					
+		@include susy-breakpoint($pho,$desk)
+	   	{
+				@include container;
+	    } 
+	} 
+}
+
+
+.header 
+	{
+		@include span(4);
+		height: 80px;
+		@include susy-breakpoint($pho,$desk)
+		  {
+		    @include span(13);
+		  }
+		.logo
+			{
+				@include span(2);
+				@include pre(2%);
+				@include post(0%);
+				@include susy-breakpoint($pho,$desk)
+				  {
+				    @include span(3);
+				  }
+			}
+		.dowm
+			{
+				@include span(2 last);
+				padding-top: 40px;
+				@include pad(4% , 2%);
+				@include susy-breakpoint($pho,$desk)
+				  {
+				    @include span(14% last);
+				    @include pad(0% , 0%);
+				    @include post(2%);
+				  }
+				.icon
+					{
+						@include pre(1%);
+						width: 29px;
+						height: 29px;
+
+					}
+			}
+	}
+
+
+.menu
+	{
+		width: 100%;
+		height: 45px;
+		.menu_box
+			{
+				@include span(4);
+				height: 100%;
+				background: rgba(#000,0.7);
+				@include susy-breakpoint($pho,$desk)
+				  {
+				    @include span(13);
+				  }
+				.me_bu
+					{
+						@include span(0.9);
+						height: 100%;
+						@include pre(1.5%);
+						@include post(0%);
+						background-image: url(../../images/menu_17.png);
+						background-repeat: no-repeat;
+
+						@include susy-breakpoint($pho,$desk)
+						  {
+						  	@include span(1);
+
+						  }
+					}
+			}
+		.list
+			{
+				display: none;
+				@include span(4);
+				text-align: center;
+				background-color: rgba(#4c4c4c,0.7);
+				padding-top: 10px;
+				padding-bottom: 10px;
+				a{
+					color: #fff;
+					height: 31px;
+					line-height: 31px;
+					width: 100%;
+					&:hover
+						{
+						color: #000;
+						font-weight: bold;
+						background-color: rgba(#fff,0.7); 
+						}
+					}
+				@include susy-breakpoint($pho,$desk)
+				  {
+				  	display: inline-block;
+				  	@include span(2.5);
+				  	min-height: 100%;
+				  }
+			}
+	}
+
+.page_name
+	{
+		@include span(last 3);
+		text-align: center;
+		font-weight: bolder;
+		font-size: 24px;
+		line-height: 45px;
+		color: #fff;
+		a
+			{
+				color: #fff;
+			}
+		@include susy-breakpoint($pho,$desk)
+ 		  {
+ 		    @include span(last 11.3);
+
+ 		  } 
+	}
+
+
+.middle
+	{
+		@include span(4);
+		margin-top: 5px;
+		@include susy-breakpoint($pho,$desk)
+		 	{
+		 		@include span(10);
+		 		margin-top: 15px;
+		 		@include pre(3%);
+		 	} 
+		
+	}
+
+
+
+
+
+.footer
+	{
+		min-height: 50px;
+		@include span(4);
+		background-color: #4c4c4c;
+		margin-top: 20px; 
+		text-align: center;
+		color: #fff;
+		font-size: 12px;
+		line-height: 24px;
+		
+		a
+			{
+				color: #fff;
+				margin-left: 2.5px;
+				margin-right: 2.5px;
+				&:hover
+					{
+						font-weight: bolder;
+					}
+			}
+		@include susy-breakpoint($pho,$desk)
+		 	{
+		 		@include span(13);
+		 		height: 150px;
+		 	} 
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
