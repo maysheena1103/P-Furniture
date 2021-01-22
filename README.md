@@ -1,3 +1,9 @@
 # P-Furniture
- Practice to creat a website like IKEA
-A project for prcticing design to frontend by using
+
+
+ 
+A project for prcticing design to frontend.
+
+The idea of the design inspire from IKEA.
+
+Practiced SASS Susy gallery `@include span()` skill.
